@@ -14,6 +14,9 @@ case "$CONFIGURATION" in
   Debug)
     DEV=true
     ;;
+ "Test Distribution")
+    DEV=false
+    ;;
   Release)
     DEV=false
     ;;
